@@ -1,0 +1,15 @@
+.event-type {
+    width: 15%;
+    max-width: 8rem;
+}
+
+.event-type img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.event-type p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

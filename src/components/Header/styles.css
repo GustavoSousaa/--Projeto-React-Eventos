@@ -1,0 +1,33 @@
+.header-app {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+}
+
+.header-app > a {
+    font-size: 2rem;
+    color: black;
+}
+
+.header-app nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-app nav ul a {
+    color: #0d2aa9;
+    border: 1px solid #0d2aa9;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.header-app nav ul a:hover {
+    background-color: #0d2aa9;
+    color: white;
+}
